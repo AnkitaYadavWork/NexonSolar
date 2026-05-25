@@ -7,12 +7,11 @@ const Calculator: React.FC = () => {
   const [systemSize, setSystemSize] = useState<number>(5);
   const [savings, setSavings] = useState<number>(0);
 
-  const calculateSavings = () => {
-    //const yearlyBill = monthlyBill * 12;
+  const calculateSavings = React.useCallback(() => {
     const yearlyProduction = systemSize * 1500;
     const yearlySavings = (yearlyProduction * 0.15);
     setSavings(Math.round(yearlySavings));
-  };
+  }, [systemSize]);
 
   React.useEffect(() => {
     calculateSavings();

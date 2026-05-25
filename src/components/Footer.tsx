@@ -28,11 +28,11 @@ const Footer: React.FC = () => {
           </div>
           <div className="footer-links">
             <h4>Resources</h4>
-            <a href="#">Solar Guide</a>
-            <a href="#">Financing Options</a>
-            <a href="#">Tax Incentives</a>
-            <a href="#">Case Studies</a>
-            <a href="#">FAQs</a>
+            <a href="#Solar">Solar Guide</a>
+            <a href="#Financing">Financing Options</a>
+            <a href="#Tax">Tax Incentives</a>
+            <a href="#CaseStudies">Case Studies</a>
+            <a href="#FAQs">FAQs</a>
           </div>
           <div className="footer-newsletter">
             <h4>Stay Updated</h4>
