@@ -8,7 +8,7 @@ const Calculator: React.FC = () => {
   const [savings, setSavings] = useState<number>(0);
 
   const calculateSavings = () => {
-    const yearlyBill = monthlyBill * 12;
+    //const yearlyBill = monthlyBill * 12;
     const yearlyProduction = systemSize * 1500;
     const yearlySavings = (yearlyProduction * 0.15);
     setSavings(Math.round(yearlySavings));
@@ -16,7 +16,7 @@ const Calculator: React.FC = () => {
 
   React.useEffect(() => {
     calculateSavings();
-  }, [monthlyBill, systemSize]);
+  }, [monthlyBill, systemSize,calculateSavings]);
 
   return (
     <section id="calculator" className="calculator section">
