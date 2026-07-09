@@ -44,7 +44,7 @@ const Contact: React.FC = () => {
               <div className="info-icon">✉️</div>
               <div>
                 <h4>Email Us</h4>
-                <p>hello@solareco.com</p>
+                <p>hello@NexonSolar.com</p>
               </div>
             </div>
             <div className="info-card">

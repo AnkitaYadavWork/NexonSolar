@@ -65,7 +65,7 @@ const Features: React.FC = () => {
   return (
     <section id="features" className="features section">
       <div className="container">
-        <h2 className="section-title">Why Choose SolarEco?</h2>
+        <h2 className="section-title">Why Choose NexonSolar?</h2>
         <p className="section-subtitle">
           We provide end-to-end solar solutions with cutting-edge technology and unmatched customer service
         </p>

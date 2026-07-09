@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
                 <path d="M16 6V10M16 22V26M22 16H26M6 16H10M19.5 12.5L22.5 9.5M9.5 22.5L12.5 19.5M19.5 19.5L22.5 22.5M9.5 9.5L12.5 12.5" stroke="white" strokeWidth="2"/>
                 <circle cx="16" cy="16" r="4" fill="white"/>
               </svg>
-              <span>SolarEco</span>
+              <span>NexonSolar</span>
             </div>
             <p>Empowering a sustainable future with clean, renewable energy solutions for homes and businesses.</p>
           </div>
@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2024 SolarEco. All rights reserved. Powering a cleaner tomorrow.</p>
+          <p>&copy; 2024 NexonSolar. All rights reserved. Powering a cleaner tomorrow.</p>
         </div>
       </div>
     </footer>

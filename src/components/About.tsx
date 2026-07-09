@@ -8,9 +8,9 @@ const About: React.FC = () => {
       <div className="container">
         <div className="about-grid">
           <div className="about-content">
-            <h2 className="section-title" style={{ textAlign: 'left' }}>About SolarEco</h2>
+            <h2 className="section-title" style={{ textAlign: 'left' }}>About NexonSolar</h2>
             <p className="about-text">
-              Founded in 2015, SolarEco has been at the forefront of the renewable energy revolution. 
+              Founded in 2015, NexonSolar has been at the forefront of the renewable energy revolution. 
               We believe that clean, affordable energy should be accessible to everyone.
             </p>
             <p className="about-text">
